@@ -1,0 +1,531 @@
+[
+  {
+    "id": 1,
+    "src": "/gallery/1000107199.webp",
+    "label": "The Farewell Frames",
+    "width": 816,
+    "height": 612,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 2,
+    "src": "/gallery/1000107250.webp",
+    "label": "The Farewell Frames",
+    "width": 512,
+    "height": 288,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 3,
+    "src": "/gallery/1000107267.webp",
+    "label": "The Farewell Frames",
+    "width": 512,
+    "height": 384,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 4,
+    "src": "/gallery/1000107285.webp",
+    "label": "The Farewell Frames",
+    "width": 512,
+    "height": 384,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 5,
+    "src": "/gallery/AIML Automathon 2025.webp",
+    "label": "Aiml Automathon 2025",
+    "width": 1333,
+    "height": 2000,
+    "aspectRatio": 0.667
+  },
+  {
+    "id": 6,
+    "src": "/gallery/AIML Farewell 2025.webp",
+    "label": "AIML Farewell 2026",
+    "width": 1333,
+    "height": 1999,
+    "aspectRatio": 0.667
+  },
+  {
+    "id": 7,
+    "src": "/gallery/AIML Project Expo 2025.webp",
+    "label": "Aiml Project Expo 2025",
+    "width": 1333,
+    "height": 2000,
+    "aspectRatio": 0.667
+  },
+  {
+    "id": 8,
+    "src": "/gallery/brach farewell.webp",
+    "label": "AIML Farewell 2026",
+    "width": 463,
+    "height": 289,
+    "aspectRatio": 1.602
+  },
+  {
+    "id": 9,
+    "src": "/gallery/file_000000001e1871f6b1697d8e48ffa9b7.webp",
+    "label": "MCE Jamboree 2025",
+    "width": 1600,
+    "height": 965,
+    "aspectRatio": 1.658
+  },
+  {
+    "id": 10,
+    "src": "/gallery/file_00000000ac8c71fa9bce6cefc8008d76.webp",
+    "label": "MCE Fest Sarvothama 2026",
+    "width": 1086,
+    "height": 1448,
+    "aspectRatio": 0.75
+  },
+  {
+    "id": 11,
+    "src": "/gallery/IMG-20250916-WA0017.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1000,
+    "height": 462,
+    "aspectRatio": 2.165
+  },
+  {
+    "id": 12,
+    "src": "/gallery/IMG-20250916-WA0018.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1020,
+    "height": 765,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 13,
+    "src": "/gallery/IMG-20250916-WA0028.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1020,
+    "height": 765,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 14,
+    "src": "/gallery/IMG-20250916-WA0030.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1020,
+    "height": 765,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 15,
+    "src": "/gallery/IMG-20250916-WA0034.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1020,
+    "height": 765,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 16,
+    "src": "/gallery/IMG-20250916-WA0042.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1020,
+    "height": 765,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 17,
+    "src": "/gallery/IMG-20250918-WA0006.webp",
+    "label": "Exploring Excellence at MIT",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 18,
+    "src": "/gallery/IMG-20250930-WA0004.webp",
+    "label": "AIML Lab Ayudha Puja 2025",
+    "width": 1600,
+    "height": 739,
+    "aspectRatio": 2.165
+  },
+  {
+    "id": 19,
+    "src": "/gallery/IMG-20251206-WA0032.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 20,
+    "src": "/gallery/IMG-20251206-WA0040.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 21,
+    "src": "/gallery/IMG-20251206-WA0050.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1600,
+    "height": 901,
+    "aspectRatio": 1.776
+  },
+  {
+    "id": 22,
+    "src": "/gallery/IMG-20260510-WA0002.webp",
+    "label": "MCE Fest Sarvothama 2026",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 23,
+    "src": "/gallery/IMG-20260523-WA0009.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 24,
+    "src": "/gallery/IMG-20260523-WA0010.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 25,
+    "src": "/gallery/IMG-20260523-WA0019.webp",
+    "label": "Moment From The Journey",
+    "width": 1280,
+    "height": 853,
+    "aspectRatio": 1.501
+  },
+  {
+    "id": 26,
+    "src": "/gallery/IMG-20260523-WA0022.webp",
+    "label": "Moment From The Journey",
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 27,
+    "src": "/gallery/IMG-20260523-WA0024.webp",
+    "label": "College Ethnic Day 2025",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 28,
+    "src": "/gallery/IMG-20260523-WA0026.webp",
+    "label": "College Ethnic Day 2024",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 29,
+    "src": "/gallery/IMG-20260523-WA0027.webp",
+    "label": "Exploring Scientific Excellence at IASc",
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 30,
+    "src": "/gallery/IMG-20260523-WA0028.webp",
+    "label": "Moment From The Journey",
+    "width": 1600,
+    "height": 2133,
+    "aspectRatio": 0.75
+  },
+  {
+    "id": 31,
+    "src": "/gallery/IMG-20260523-WA0030.webp",
+    "label": "Exploring Scientific Excellence at IASc",
+    "width": 1600,
+    "height": 2133,
+    "aspectRatio": 0.75
+  },
+  {
+    "id": 32,
+    "src": "/gallery/IMG-20260523-WA0031.webp",
+    "label": "Exploring Scientific Excellence at IASc",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 33,
+    "src": "/gallery/IMG-20260523-WA0032.webp",
+    "label": "Sports Moments",
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75
+  },
+  {
+    "id": 34,
+    "src": "/gallery/IMG-20260523-WA0036.webp",
+    "label": "Sports Moments",
+    "width": 1600,
+    "height": 2844,
+    "aspectRatio": 0.563
+  },
+  {
+    "id": 35,
+    "src": "/gallery/IMG-20260523-WA0056.webp",
+    "label": "Sports Moments",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 36,
+    "src": "/gallery/IMG-20260523-WA0057.webp",
+    "label": "Sports Moments",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 37,
+    "src": "/gallery/IMG-20260525-WA0020.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 38,
+    "src": "/gallery/IMG-20260525-WA0035.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 591,
+    "aspectRatio": 2.166
+  },
+  {
+    "id": 39,
+    "src": "/gallery/IMG-20260525-WA0040.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 40,
+    "src": "/gallery/IMG-20260525-WA0041.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 591,
+    "aspectRatio": 2.166
+  },
+  {
+    "id": 41,
+    "src": "/gallery/IMG-20260525-WA0054.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 591,
+    "aspectRatio": 2.166
+  },
+  {
+    "id": 42,
+    "src": "/gallery/IMG-20260525-WA0064.webp",
+    "label": "AIML Automathon 2025",
+    "width": 1280,
+    "height": 591,
+    "aspectRatio": 2.166
+  },
+  {
+    "id": 43,
+    "src": "/gallery/IMG-20260525-WA0130.webp",
+    "label": "AIML Project Expo 2025",
+    "width": 1600,
+    "height": 739,
+    "aspectRatio": 2.165
+  },
+  {
+    "id": 44,
+    "src": "/gallery/IMG-20260526-WA0073.webp",
+    "label": "Moment From The Journey",
+    "width": 1600,
+    "height": 1201,
+    "aspectRatio": 1.332
+  },
+  {
+    "id": 45,
+    "src": "/gallery/IMG-20260526-WA0074.webp",
+    "label": "Moment From The Journey",
+    "width": 1600,
+    "height": 1201,
+    "aspectRatio": 1.332
+  },
+  {
+    "id": 46,
+    "src": "/gallery/IMG-20260526-WA0187.webp",
+    "label": "AIML Parents Meeting",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 47,
+    "src": "/gallery/IMG-20260526-WA0199.webp",
+    "label": "Moment From The Journey",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 48,
+    "src": "/gallery/IMG-20260526-WA0244.webp",
+    "label": "Moment From The Journey",
+    "width": 675,
+    "height": 683,
+    "aspectRatio": 0.988
+  },
+  {
+    "id": 49,
+    "src": "/gallery/IMG-20260526-WA0267.webp",
+    "label": "AIML Farewell 2026",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 50,
+    "src": "/gallery/IMG-20260526-WA0298 (2).webp",
+    "label": "AIML Farewell 2026",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 51,
+    "src": "/gallery/IMG_0695.webp",
+    "label": "The Farewell Frames",
+    "width": 1600,
+    "height": 1067,
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 52,
+    "src": "/gallery/IMG_0701.webp",
+    "label": "The Farewell Frames",
+    "width": 1600,
+    "height": 1067,
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 53,
+    "src": "/gallery/IMG_0707.webp",
+    "label": "The Farewell Frames",
+    "width": 1600,
+    "height": 1067,
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 54,
+    "src": "/gallery/IMG_0722.webp",
+    "label": "The Farewell Frames",
+    "width": 1600,
+    "height": 1067,
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 55,
+    "src": "/gallery/IMG_0732.webp",
+    "label": "The Farewell Frames",
+    "width": 1600,
+    "height": 1067,
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 56,
+    "src": "/gallery/IMG_0757.webp",
+    "label": "The Farewell Frames",
+    "width": 1600,
+    "height": 1067,
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 57,
+    "src": "/gallery/IMG_20260525_161637.webp",
+    "label": "MCE Jamboree 2025",
+    "width": 1080,
+    "height": 647,
+    "aspectRatio": 1.669
+  },
+  {
+    "id": 58,
+    "src": "/gallery/IMG_20260526_110624.webp",
+    "label": "Moment From The Journey",
+    "width": 1600,
+    "height": 2133,
+    "aspectRatio": 0.75
+  },
+  {
+    "id": 59,
+    "src": "/gallery/MAH_9330.webp",
+    "label": "AIML Faculty Team",
+    "width": 1600,
+    "height": 1065,
+    "aspectRatio": 1.502
+  },
+  {
+    "id": 60,
+    "src": "/gallery/MAH_9416.webp",
+    "label": "AIML Graduates Frame",
+    "width": 1600,
+    "height": 1065,
+    "aspectRatio": 1.502
+  },
+  {
+    "id": 61,
+    "src": "/gallery/MAH_9423.webp",
+    "label": "AIML Graduates Frame",
+    "width": 1600,
+    "height": 1065,
+    "aspectRatio": 1.502
+  },
+  {
+    "id": 62,
+    "src": "/gallery/MAH_9429.webp",
+    "label": "AIML Graduates Frame",
+    "width": 1600,
+    "height": 1065,
+    "aspectRatio": 1.502
+  },
+  {
+    "id": 63,
+    "src": "/gallery/MAH_9434.webp",
+    "label": "AIML Graduates Frame",
+    "width": 1600,
+    "height": 1065,
+    "aspectRatio": 1.502
+  },
+  {
+    "id": 64,
+    "src": "/gallery/WhatsApp Image 2025-05-13 at 10.02.22 AM.webp",
+    "label": "Department Moment",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 65,
+    "src": "/gallery/WhatsApp Image 2025-05-13 at 10.02.43 AM.webp",
+    "label": "Department Moment",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778
+  }
+,
+  {
+    "id": 66,
+    "src": "/gallery/plantation.jpg",
+    "label": "Plantation",
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333
+  }
+]
