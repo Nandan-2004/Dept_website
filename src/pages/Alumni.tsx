@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ExternalLink, 
@@ -197,11 +198,14 @@ export default function Alumni() {
       </section>
 
       {/* ─── PROFILE SLIDE-OUT MODAL ─────────────────────────── */}
-      <AnimatePresence>
-        {selected && (
-          <ProfileModal alumni={selected} onClose={() => setSelected(null)} />
-        )}
-      </AnimatePresence>
+      {createPortal(
+        <AnimatePresence>
+          {selected && (
+            <ProfileModal alumni={selected} onClose={() => setSelected(null)} />
+          )}
+        </AnimatePresence>,
+        document.body
+      )}
     </div>
   );
 }
@@ -405,7 +409,7 @@ function ProfileModal({
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3 }}
-        className="fixed inset-0 z-50 bg-primary/20 backdrop-blur-[6px]"
+        className="fixed inset-0 z-[60] bg-primary/20 backdrop-blur-[6px]"
         onClick={onClose}
       />
 
@@ -415,21 +419,36 @@ function ProfileModal({
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: '100%' }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className="fixed top-0 right-0 bottom-0 z-50 w-full max-w-md bg-white border-l border-border/80 flex flex-col shadow-[-10px_0_40px_rgba(0,0,0,0.03)] overflow-y-auto no-scrollbar"
+        className="fixed top-0 right-0 bottom-0 z-[60] w-full max-w-md bg-white border-l border-border/80 flex flex-col shadow-[-10px_0_40px_rgba(0,0,0,0.03)] overflow-y-auto no-scrollbar"
         data-lenis-prevent="true"
       >
         {/* Drawer Header Controls */}
-        <div className="flex justify-between items-center px-8 pt-8 pb-4">
+        <div className="flex justify-between items-center px-6 md:px-8 pt-6 pb-4">
+          <button
+            onClick={onClose}
+            className="inline-flex items-center gap-2 px-3 py-2 rounded-xl text-secondary hover:text-primary hover:bg-surface border border-transparent hover:border-border/60 transition-all duration-200 group"
+            aria-label="Back to alumni list"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="transition-transform duration-200 group-hover:-translate-x-0.5"
+            >
+              <path d="M19 12H5" />
+              <path d="m12 19-7-7 7-7" />
+            </svg>
+            <span className="font-sans text-xs font-medium tracking-wide">Back</span>
+          </button>
           <span className="font-sans text-2xs uppercase tracking-widest text-muted font-semibold">
             {alumni.batch}
           </span>
-          <button
-            onClick={onClose}
-            className="w-9 h-9 rounded-full border border-border flex items-center justify-center hover:bg-surface hover:border-primary/20 transition-all duration-200"
-            aria-label="Close"
-          >
-            <X size={14} className="text-muted" />
-          </button>
         </div>
 
         {/* Center Profile Presentation */}

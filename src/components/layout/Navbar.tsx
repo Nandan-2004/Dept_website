@@ -63,7 +63,7 @@ export default function Navbar() {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-        className="fixed top-0 left-0 right-0 z-50 overflow-hidden"
+        className="fixed top-0 left-0 right-0 z-50"
         style={{
           background: scrolled
             ? 'rgba(244, 247, 252, 0.62)'
@@ -105,65 +105,138 @@ export default function Navbar() {
             transition: 'opacity 0.8s ease',
           }}
         />
-        <div className="w-full pl-3 pr-6 md:pl-5 md:pr-10 py-[12px] flex items-center justify-between">
-          {/* Logo block */}
-          <div className="flex items-center gap-3">
-            <Link to="/" className="flex items-center gap-3 group">
+        <div className="w-full px-3 md:pl-5 md:pr-10 py-[8px] md:py-[12px] flex items-center justify-between">
+          {/* Left block: Logos + Text */}
+          <div className="flex items-center min-w-0">
+            {/* === Mobile layout === */}
+            <Link to="/" className="md:hidden flex items-center gap-2 min-w-0">
+              {/* MCE block */}
               <img
                 src="/images/mce logo.webp"
                 alt="Malnad College of Engineering"
-                className="h-[64px] w-auto object-contain"
+                className="h-[32px] w-auto object-contain flex-shrink-0"
                 style={{ mixBlendMode: 'multiply' }}
               />
-              <div className="flex flex-col leading-tight">
-                <span className="font-sans font-bold text-[14px] text-[#1a1f3c] tracking-tight leading-snug">
+              <div className="flex flex-col leading-tight min-w-0">
+                <span className="font-sans font-bold text-[10px] text-[#1a1f3c] tracking-tight leading-snug">
                   Malnad College of Engineering
                 </span>
-                <span className="font-sans font-normal text-[10.5px] text-[#4a4a5a] tracking-wide leading-snug">
+                <span className="font-sans font-normal text-[7.5px] text-[#4a4a5a] tracking-wide leading-snug">
                   An Autonomous Institution
                 </span>
-                <span className="font-sans font-semibold text-[10px] text-[#3a3a4a] tracking-widest uppercase leading-snug">
-                  Hassan – 573202, Karnataka
-                </span>
               </div>
-            </Link>
 
-            {/* Premium vertical divider */}
-            <div
-              className="hidden md:block mx-3 self-stretch"
-              style={{
-                width: '1px',
-                background: 'linear-gradient(to bottom, transparent, rgba(26,31,60,0.18) 25%, rgba(26,31,60,0.28) 50%, rgba(26,31,60,0.18) 75%, transparent)',
-                minHeight: '36px',
-              }}
-            />
-
-            {/* Department name with AIML logo */}
-            <div className="hidden md:flex items-center gap-2.5">
+              {/* Divider */}
               <div
-                className="h-[54px] w-[54px] rounded-full flex-shrink-0"
+                className="self-stretch mx-1 flex-shrink-0"
+                style={{
+                  width: '1px',
+                  background: 'linear-gradient(to bottom, transparent, rgba(26,31,60,0.18) 25%, rgba(26,31,60,0.28) 50%, rgba(26,31,60,0.18) 75%, transparent)',
+                  minHeight: '24px',
+                }}
+              />
+
+              {/* AIML block */}
+              <div
+                className="h-[24px] w-[24px] rounded-full flex-shrink-0"
                 style={{ overflow: 'hidden', background: 'white' }}
               >
                 <img
                   src="/images/aiml logo2 (1).webp?v=2"
                   alt="AIML Department"
-                  className="h-[54px] w-[54px] object-cover"
+                  className="h-[24px] w-[24px] object-cover"
                   style={{ mixBlendMode: 'multiply' }}
                 />
               </div>
-              <div className="flex flex-col leading-tight">
-                <span className="font-sans font-light text-[10.5px] text-[#6b7280] tracking-[0.12em] uppercase mb-0.5">
+              <div className="flex flex-col leading-tight min-w-0">
+                <span className="font-sans font-light text-[7px] text-[#6b7280] tracking-[0.1em] uppercase leading-snug">
                   Department of
                 </span>
-                <span className="font-sans font-bold text-[14px] text-[#1a1f3c] tracking-tight leading-snug">
-                  Computer Science &amp; Engineering
+                <span className="font-sans font-bold text-[9px] text-[#1a1f3c] tracking-tight leading-snug">
+                  CSE — AI &amp; ML
                 </span>
-                <span className="font-sans font-bold text-[14px] text-[#1a1f3c] tracking-tight leading-snug">
-                  Artificial Intelligence &amp; Machine Learning
-                </span>
+              </div>
+            </Link>
+
+            {/* === Desktop layout === */}
+            <div className="hidden md:flex items-center gap-3">
+              <Link to="/" className="flex items-center gap-3 group">
+                <img
+                  src="/images/mce logo.webp"
+                  alt="Malnad College of Engineering"
+                  className="h-[64px] w-auto object-contain flex-shrink-0"
+                  style={{ mixBlendMode: 'multiply' }}
+                />
+                <div className="flex flex-col leading-tight">
+                  <span className="font-sans font-bold text-[14px] text-[#1a1f3c] tracking-tight leading-snug">
+                    Malnad College of Engineering
+                  </span>
+                  <span className="font-sans font-normal text-[10.5px] text-[#4a4a5a] tracking-wide leading-snug">
+                    An Autonomous Institution
+                  </span>
+                  <span className="font-sans font-semibold text-[10px] text-[#3a3a4a] tracking-widest uppercase leading-snug">
+                    Hassan – 573202, Karnataka
+                  </span>
+                </div>
+              </Link>
+
+              {/* Premium vertical divider */}
+              <div
+                className="mx-3 self-stretch"
+                style={{
+                  width: '1px',
+                  background: 'linear-gradient(to bottom, transparent, rgba(26,31,60,0.18) 25%, rgba(26,31,60,0.28) 50%, rgba(26,31,60,0.18) 75%, transparent)',
+                  minHeight: '36px',
+                }}
+              />
+
+              {/* Department name with AIML logo */}
+              <div className="flex items-center gap-2.5">
+                <div
+                  className="h-[54px] w-[54px] rounded-full flex-shrink-0"
+                  style={{ overflow: 'hidden', background: 'white' }}
+                >
+                  <img
+                    src="/images/aiml logo2 (1).webp?v=2"
+                    alt="AIML Department"
+                    className="h-[54px] w-[54px] object-cover"
+                    style={{ mixBlendMode: 'multiply' }}
+                  />
+                </div>
+                <div className="flex flex-col leading-tight">
+                  <span className="font-sans font-light text-[10.5px] text-[#6b7280] tracking-[0.12em] uppercase mb-0.5">
+                    Department of
+                  </span>
+                  <span className="font-sans font-bold text-[14px] text-[#1a1f3c] tracking-tight leading-snug">
+                    Computer Science &amp; Engineering
+                  </span>
+                  <span className="font-sans font-bold text-[14px] text-[#1a1f3c] tracking-tight leading-snug">
+                    Artificial Intelligence &amp; Machine Learning
+                  </span>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* Mobile Hamburger */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden flex flex-col gap-[5px] p-2 flex-shrink-0"
+            aria-label="Toggle menu"
+          >
+            <motion.span
+              animate={menuOpen ? { rotate: 45, y: 7 } : { rotate: 0, y: 0 }}
+              className="w-5 h-[1.5px] bg-primary block origin-center"
+            />
+            <motion.span
+              animate={menuOpen ? { opacity: 0 } : { opacity: 1 }}
+              className="w-5 h-[1.5px] bg-primary block"
+            />
+            <motion.span
+              animate={menuOpen ? { rotate: -45, y: -7 } : { rotate: 0, y: 0 }}
+              className="w-5 h-[1.5px] bg-primary block origin-center"
+            />
+          </button>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
@@ -202,26 +275,6 @@ export default function Navbar() {
               );
             })}
           </nav>
-
-          {/* Mobile Hamburger */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden flex flex-col gap-[5px] p-1"
-            aria-label="Toggle menu"
-          >
-            <motion.span
-              animate={menuOpen ? { rotate: 45, y: 7 } : { rotate: 0, y: 0 }}
-              className="w-5 h-[1.5px] bg-primary block origin-center"
-            />
-            <motion.span
-              animate={menuOpen ? { opacity: 0 } : { opacity: 1 }}
-              className="w-5 h-[1.5px] bg-primary block"
-            />
-            <motion.span
-              animate={menuOpen ? { rotate: -45, y: -7 } : { rotate: 0, y: 0 }}
-              className="w-5 h-[1.5px] bg-primary block origin-center"
-            />
-          </button>
         </div>
       </motion.header>
 
