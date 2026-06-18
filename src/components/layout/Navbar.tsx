@@ -114,7 +114,7 @@ export default function Navbar() {
               <img
                 src="/images/mce logo.webp"
                 alt="Malnad College of Engineering"
-                className="h-[32px] w-auto object-contain flex-shrink-0"
+                className="h-[28px] w-auto object-contain flex-shrink-0"
                 style={{ mixBlendMode: 'multiply' }}
               />
               <div className="flex flex-col leading-tight min-w-0">
@@ -138,13 +138,13 @@ export default function Navbar() {
 
               {/* AIML block */}
               <div
-                className="h-[24px] w-[24px] rounded-full flex-shrink-0"
+                className="h-[28px] w-[28px] rounded-full flex-shrink-0"
                 style={{ overflow: 'hidden', background: 'white' }}
               >
                 <img
                   src="/images/aiml logo2 (1).webp?v=2"
                   alt="AIML Department"
-                  className="h-[24px] w-[24px] object-cover"
+                  className="h-[28px] w-[28px] object-cover"
                   style={{ mixBlendMode: 'multiply' }}
                 />
               </div>
